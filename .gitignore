@@ -1,3 +1,5 @@
 flowscript_demos/~flowscript_demos.kicad_sch.lck
 flowscript_demos/#auto_saved_files#
 flowscript_demos/flowscript_demos-backups/*.zip
+*bin*
+*obj*
