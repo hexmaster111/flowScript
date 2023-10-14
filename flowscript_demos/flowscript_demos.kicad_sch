@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3041321c-204e-4071-8ee7-993ae3f9fa9a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 81.28 24.765) (size 43.18 36.195) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 040538ad-8fe5-4016-b779-0ebe6b508a62)
+    (property "Sheetname" "SimpleConsoleProgramExample" (at 81.28 24.0534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SimpleConsoleProgramExample.kicad_sch" (at 81.28 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "flowscript_demos"
+        (path "/3041321c-204e-4071-8ee7-993ae3f9fa9a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 26.035 24.765) (size 43.815 36.195) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 552dadb7-92f2-4f35-93ac-9a29bac25ce1)
+    (property "Sheetname" "SimpleNamespacing Example" (at 26.035 24.0534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "simple_namesspace_example.kicad_sch" (at 26.035 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "flowscript_demos"
+        (path "/3041321c-204e-4071-8ee7-993ae3f9fa9a" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
