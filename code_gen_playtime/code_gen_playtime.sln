@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codegen", "codegen\codegen.csproj", "{D4CDA127-4CF9-498D-A9A4-AA4B1003E878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDLApplication", "SDLApplication\SDLApplication.csproj", "{1E63CBC7-701D-4C55-BE4A-4FF382AE1008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeEditor.Base", "samples\NodeEditor.Base\NodeEditor.Base.csproj", "{4778A830-5BAD-47D5-9B94-DB93238E1045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopProgram", "DesktopProgram\DesktopProgram.csproj", "{7FFC757A-7EB0-4336-9654-81595526F9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectorConformer", "ReflectorConformer\ReflectorConformer.csproj", "{6CE2D958-1786-409A-A5FC-4EC09C696011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,21 @@ Global
 		{D4CDA127-4CF9-498D-A9A4-AA4B1003E878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4CDA127-4CF9-498D-A9A4-AA4B1003E878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4CDA127-4CF9-498D-A9A4-AA4B1003E878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E63CBC7-701D-4C55-BE4A-4FF382AE1008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E63CBC7-701D-4C55-BE4A-4FF382AE1008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E63CBC7-701D-4C55-BE4A-4FF382AE1008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E63CBC7-701D-4C55-BE4A-4FF382AE1008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4778A830-5BAD-47D5-9B94-DB93238E1045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4778A830-5BAD-47D5-9B94-DB93238E1045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4778A830-5BAD-47D5-9B94-DB93238E1045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4778A830-5BAD-47D5-9B94-DB93238E1045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFC757A-7EB0-4336-9654-81595526F9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFC757A-7EB0-4336-9654-81595526F9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFC757A-7EB0-4336-9654-81595526F9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFC757A-7EB0-4336-9654-81595526F9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE2D958-1786-409A-A5FC-4EC09C696011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE2D958-1786-409A-A5FC-4EC09C696011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE2D958-1786-409A-A5FC-4EC09C696011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE2D958-1786-409A-A5FC-4EC09C696011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AvaloniaApplication1/MainWindow.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
+        <entry key="NodeTests/App.axaml" value="NodeTests/NodeTests.csproj" />
+        <entry key="NodeTests/MainView.axaml" value="NodeTests/NodeTests.csproj" />
+        <entry key="NodeTests/MainWindow.axaml" value="NodeTests/NodeTests.csproj" />
+        <entry key="samples/NodeEditor.Base/App.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Styles/Icons.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Styles/Nodes.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Styles/Themes.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/MainView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/MainWindow.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/MenuView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/AndGateView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/CodeNodes/FuncCallView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/CodeNodes/StaticFuncCallCodeNodeView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/EllipseView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/FuncCallView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/OrGateView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/RectangleView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+        <entry key="samples/NodeEditor.Base/Views/Nodes/SignalView.axaml" value="DesktopProgram/DesktopProgram.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

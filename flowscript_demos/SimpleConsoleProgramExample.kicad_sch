@@ -616,9 +616,9 @@
     (property "Datasheet" "" (at 178.435 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c41d98a5-b87f-453b-a774-688d69eafbad))
-    (pin "" (uuid c41d98a5-b87f-453b-a774-688d69eafbad))
-    (pin "" (uuid c41d98a5-b87f-453b-a774-688d69eafbad))
+    (pin "" (uuid c41d98a5-b87f-453b-a774-688d69eafbaf))
+    (pin "" (uuid c41d98a5-b87f-453b-a774-688d69eafbaf))
+    (pin "" (uuid c41d98a5-b87f-453b-a774-688d69eafbaf))
     (instances
       (project "flowscript_demos"
         (path "/3041321c-204e-4071-8ee7-993ae3f9fa9a/040538ad-8fe5-4016-b779-0ebe6b508a62"
@@ -705,7 +705,7 @@
     (property "FullyQulifiedFuncName" "Int32.Parse" (at 161.925 38.735 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "" (uuid 67a4e490-05c5-41a0-971b-49126e77d5ee))
+    (pin "" (uuid 5867e608-bb7e-4ae0-890e-da83e729cfc3))
     (pin "" (uuid 5867e608-bb7e-4ae0-890e-da83e729cfc3))
     (instances
       (project "flowscript_demos"
@@ -734,8 +734,8 @@
     (property "T_ITEM" "string" (at 135.89 38.735 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "" (uuid b0740898-ba1e-4841-97bc-5a0f4d527b3f))
-    (pin "" (uuid eb512baa-5487-410f-b8e4-10cf7c8f61af))
+    (pin "" (uuid b0398eea-0eb5-4397-b4f6-15f968d8638b))
+    (pin "" (uuid b0398eea-0eb5-4397-b4f6-15f968d8638b))
     (pin "" (uuid b0398eea-0eb5-4397-b4f6-15f968d8638b))
     (instances
       (project "flowscript_demos"
@@ -779,11 +779,11 @@
     (property "return_t" "string" (at 210.185 42.545 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f780))
-    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f780))
-    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f780))
-    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f780))
-    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f780))
+    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f784))
+    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f784))
+    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f784))
+    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f784))
+    (pin "" (uuid f1829551-3ecb-43d7-a7d9-34d2a2b1f784))
     (instances
       (project "flowscript_demos"
         (path "/3041321c-204e-4071-8ee7-993ae3f9fa9a/040538ad-8fe5-4016-b779-0ebe6b508a62"
@@ -839,7 +839,7 @@
     (property "FullyQulifiedFuncName" "Int32.Parse" (at 161.925 46.355 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "" (uuid 11b5e897-0f50-4dae-a473-c8ac79e3623f))
+    (pin "" (uuid 6ff78676-07cd-46c3-97b6-f1227a1f4592))
     (pin "" (uuid 6ff78676-07cd-46c3-97b6-f1227a1f4592))
     (instances
       (project "flowscript_demos"
@@ -868,8 +868,8 @@
     (property "T_ITEM" "string" (at 135.89 46.355 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "" (uuid 2dcfbd56-b703-42bb-b784-4988fca3e7c6))
-    (pin "" (uuid cae4f7bf-1bb0-4fe1-904a-1cdc228cf446))
+    (pin "" (uuid a2964cac-5e57-44de-ac83-0a53455a7af7))
+    (pin "" (uuid a2964cac-5e57-44de-ac83-0a53455a7af7))
     (pin "" (uuid a2964cac-5e57-44de-ac83-0a53455a7af7))
     (instances
       (project "flowscript_demos"

@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <IsPackable>True</IsPackable>
+        <Nullable>enable</Nullable>
+        <RootNamespace>NodeEditorDemo</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>NodeEditor.Base</PackageId>
+        <Description>A node editor control for Avalonia.</Description>
+        <PackageTags>node;editor;nodeeditor;graph;control;xaml;axaml;avalonia;avaloniaui</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.0.5-rc1"/>
+        <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.0.5-rc1" />
+        <PackageReference Include="Avalonia.Desktop" Version="11.0.5-rc1"/>
+        <PackageReference Include="Avalonia.Diagnostics" Version="11.0.5-rc1"/>
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.5-rc1"/>
+        <PackageReference Include="Avalonia.Skia" Version="11.0.5-rc1"/>
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.5-rc1"/>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+        <PackageReference Include="NodeEditorAvalonia" Version="11.0.0"/>
+        <PackageReference Include="NodeEditorAvalonia.Mvvm" Version="11.0.0"/>
+        <PackageReference Include="SkiaSharp" Version="2.88.6"/>
+
+        <ProjectReference Include="..\..\ReflectorConformer\ReflectorConformer.csproj"/>
+
+
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <Compile Update="Views\Nodes\FuncCallView.axaml.cs">
+            <DependentUpon>FuncCallView.axaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+    </ItemGroup>
+</Project>

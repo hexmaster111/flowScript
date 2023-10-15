@@ -1,0 +1,135 @@
+{
+  "$id": "1",
+  "$type": "NodeEditor.Mvvm.DrawingNodeViewModel, NodeEditorAvalonia.Mvvm",
+  "Nodes": [
+    {
+      "$id": "2",
+      "$type": "NodeEditor.Mvvm.NodeViewModel, NodeEditorAvalonia.Mvvm",
+      "Name": "SIGNAL",
+      "Parent": {
+        "$ref": "1"
+      },
+      "X": 60.0,
+      "Y": 105.0,
+      "Width": 180.0,
+      "Height": 30.0,
+      "Content": {
+        "$id": "3",
+        "$type": "NodeEditorDemo.ViewModels.Nodes.SignalViewModel, NodeEditor.Base",
+        "Label": "signal",
+        "State": false
+      },
+      "Pins": [
+        {
+          "$id": "4",
+          "$type": "NodeEditor.Mvvm.PinViewModel, NodeEditorAvalonia.Mvvm",
+          "Name": "IN",
+          "Parent": {
+            "$ref": "2"
+          },
+          "X": 0.0,
+          "Y": 15.0,
+          "Width": 10.0,
+          "Height": 10.0,
+          "Alignment": 1
+        },
+        {
+          "$id": "5",
+          "$type": "NodeEditor.Mvvm.PinViewModel, NodeEditorAvalonia.Mvvm",
+          "Name": "OUT",
+          "Parent": {
+            "$ref": "2"
+          },
+          "X": 180.0,
+          "Y": 15.0,
+          "Width": 10.0,
+          "Height": 10.0,
+          "Alignment": 2
+        }
+      ]
+    },
+    {
+      "$id": "6",
+      "$type": "NodeEditor.Mvvm.NodeViewModel, NodeEditorAvalonia.Mvvm",
+      "Name": "AND",
+      "Parent": {
+        "$ref": "1"
+      },
+      "X": 330.0,
+      "Y": 90.0,
+      "Width": 60.0,
+      "Height": 60.0,
+      "Content": {
+        "$id": "7",
+        "$type": "NodeEditorDemo.ViewModels.Nodes.AndGateViewModel, NodeEditor.Base",
+        "Label": "&"
+      },
+      "Pins": [
+        {
+          "$id": "8",
+          "$type": "NodeEditor.Mvvm.PinViewModel, NodeEditorAvalonia.Mvvm",
+          "Name": "L",
+          "Parent": {
+            "$ref": "6"
+          },
+          "X": 0.0,
+          "Y": 30.0,
+          "Width": 10.0,
+          "Height": 10.0,
+          "Alignment": 1
+        },
+        {
+          "$id": "9",
+          "$type": "NodeEditor.Mvvm.PinViewModel, NodeEditorAvalonia.Mvvm",
+          "Name": "R",
+          "Parent": {
+            "$ref": "6"
+          },
+          "X": 60.0,
+          "Y": 30.0,
+          "Width": 10.0,
+          "Height": 10.0,
+          "Alignment": 2
+        },
+        {
+          "$id": "10",
+          "$type": "NodeEditor.Mvvm.PinViewModel, NodeEditorAvalonia.Mvvm",
+          "Name": "T",
+          "Parent": {
+            "$ref": "6"
+          },
+          "X": 30.0,
+          "Y": 0.0,
+          "Width": 10.0,
+          "Height": 10.0,
+          "Alignment": 3
+        },
+        {
+          "$id": "11",
+          "$type": "NodeEditor.Mvvm.PinViewModel, NodeEditorAvalonia.Mvvm",
+          "Name": "B",
+          "Parent": {
+            "$ref": "6"
+          },
+          "X": 30.0,
+          "Y": 60.0,
+          "Width": 10.0,
+          "Height": 10.0,
+          "Alignment": 4
+        }
+      ]
+    }
+  ],
+  "Connectors": [],
+  "EnableMultiplePinConnections": false,
+  "EnableSnap": true,
+  "SnapX": 15.0,
+  "SnapY": 15.0,
+  "EnableGrid": true,
+  "GridCellWidth": 15.0,
+  "GridCellHeight": 15.0,
+  "X": 0.0,
+  "Y": 0.0,
+  "Width": 900.0,
+  "Height": 600.0
+}

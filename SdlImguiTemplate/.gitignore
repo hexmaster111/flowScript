@@ -1,0 +1,7 @@
+.vs
+.idea
+Build/
+Example/bin
+Example/obj
+General/bin
+General/obj
